@@ -1,0 +1,27 @@
+# Ignore Colab-specific files
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore data files
+*.csv
+*.txt
+*.parquet
+*.feather
+
+# Ignore libraries and dependencies
+venv/
+/content/sample_data/
+
+# Ignore model checkpoints and artifacts
+*.h5
+*.pb
+*.ckpt
+
+# Ignore sensitive information
+.env
+credentials.json
+
+# Ignore output files and logs
+*.log
+*.out
+results/
