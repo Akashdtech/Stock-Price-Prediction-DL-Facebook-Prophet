@@ -15,9 +15,7 @@ Data Preprocessing:
 LSTM Model for Stock Price Prediction:
 
     Data Preparation: The dataset is split into training and testing subsets. A portion of the data is selected to limit memory usage.
-    LSTM Architecture:
-    Three LSTM layers with 128, 256, and 128 units, followed by a dropout layer to reduce overfitting.
-    A fully connected layer outputs a single continuous value (stock price).
+    LSTM Architecture: Three LSTM layers with 128, 256, and 128 units, followed by a dropout layer to reduce overfitting. A fully connected layer outputs a single continuous value (stock price).
     Model Compilation and Training: The model uses the Adam optimizer and Mean Squared Error (MSE) as the loss function.
         
 Evaluation Metrics: After training, the model is evaluated on the test set using:
